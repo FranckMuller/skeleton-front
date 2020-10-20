@@ -1,0 +1,18 @@
+@import "../../constants";
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+
+    > div {
+        margin-bottom: $commonPadding;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.input {
+    color: red;
+}

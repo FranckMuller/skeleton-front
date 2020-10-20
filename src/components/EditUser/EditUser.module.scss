@@ -1,0 +1,36 @@
+@import "../../constants";
+
+.editUserContainer {
+    > div {
+        margin-bottom: $commonPadding;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.passwordsContainer {
+    display: flex;
+    flex-direction: row;
+
+    > div:first-child {
+        margin-right: $commonPadding;
+    }
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: $commonPadding * 2;
+}
+
+.buttonsGroup {
+    > button {
+        margin-right: $commonPadding;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
